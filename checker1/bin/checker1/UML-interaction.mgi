@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <CommunicationClass name="checker1.cell" x="317" y="160"/>
+    <CommunicationClass name="checker1.board" x="205" y="159">
+        <Association destinationClassName="checker1.board"
+            endpointName="b" kind="Simple"/>
+        <Communication destinationClassName="checker1.cell"/>
+    </CommunicationClass>
+    <CommunicationClass name="checker1.Checker" x="24" y="159">
+        <Communication destinationClassName="checker1.board"/>
+    </CommunicationClass>
+</ClassDiagram>
